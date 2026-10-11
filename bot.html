@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Чат-бот G×Advent — заявка</title>
+  <meta name="description" content="Навчальний чат-бот: заявка на G×Advent 2026 або перехід до салону. Без діагнозу і без вигаданого складу коробки.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&family=Unbounded:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({ event: "view", page: "bot" });
+  </script>
+  <header class="top">
+    <p class="mark">чат-бот · заявка</p>
+    <a class="toplink" href="index.html">Лендінг</a>
+  </header>
+  <main class="bot-wrap">
+    <section class="chat" aria-label="Діалог">
+      <div id="log" class="log"></div>
+      <div id="controls" class="controls"></div>
+    </section>
+    <aside>
+      <h2>Як він іде</h2>
+      <ol>
+        <li>Адвент, салон або питання про шкіру.</li>
+        <li>Для кого набір: собі чи в подарунок.</li>
+        <li>Країна. Не Україна — стоп, без форми.</li>
+        <li>Місто в Україні.</li>
+        <li>Ім’я і телефон або пошта.</li>
+        <li>Згода окремим кліком. Галка наперед не стоїть.</li>
+      </ol>
+      <p>Салон веде на gbar.com.ua. Шкіру відправляємо до лікаря і нічого не продаємо. Заявка на коробку лишається на цьому екрані: на пошту вона не йде.</p>
+      <figure>
+        <img src="img/2.jpg" alt="Рожева коробка з стрічкою, настрій зйомки, не товар магазину">
+        <figcaption>Настрій зйомки, не фото адвенту</figcaption>
+      </figure>
+    </aside>
+  </main>
+  <footer>
+    <p>Навчальний бот. Не офіційний канал G×Bar. Офіційна картка: <a href="https://shop.gbar.ua/advent">shop.gbar.ua/advent</a>.</p>
+  </footer>
+  <script src="bot.js"></script>
+</body>
+</html>
